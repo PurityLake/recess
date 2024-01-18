@@ -31,9 +31,10 @@ impl<Types: Default + Component + Clone + 'static> Query<Types> {
 mod tests {
     use super::*;
     use crate::components;
+    use procmacros::ComponentDerive;
 
     #[allow(dead_code)]
-    #[derive(Default, Clone, Debug)]
+    #[derive(ComponentDerive, Default, Clone, Debug)]
     struct Position {
         pub x: i32,
         pub y: i32,

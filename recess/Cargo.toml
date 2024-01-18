@@ -1,0 +1,18 @@
+[package]
+name = "recess"
+description = "A simple ECS library for Rust"
+readme = "../README.md"
+keywords = ["ecs", "entity-component-system", "entity", "component", "system"]
+categories = ["game-development"]
+workspace = ".."
+
+repository.workspace = true
+authors.workspace = true
+license.workspace = true
+version.workspace = true
+edition.workspace = true
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies.procmacros]
+path = "../procmacros"

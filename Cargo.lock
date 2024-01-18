@@ -3,5 +3,12 @@
 version = 3
 
 [[package]]
+name = "procmacros"
+version = "0.1.0"
+
+[[package]]
 name = "recess"
 version = "0.1.0"
+dependencies = [
+ "procmacros",
+]
