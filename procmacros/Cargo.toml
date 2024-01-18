@@ -1,0 +1,16 @@
+[package]
+name = "procmacros"
+description = "Definitions for the recess procedural macro"
+workspace = ".."
+
+repository.workspace = true
+authors.workspace = true
+license.workspace = true
+version.workspace = true
+edition.workspace = true
+
+
+[lib]
+proc-macro = true
+
+[dependencies]
